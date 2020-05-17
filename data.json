@@ -1,51 +1,49 @@
 {
-    "data": {
-        "projects": [
-            {
-                "id": "0",
-                "project_name": "Random Quote Generator",
-                "description": "An application that creates a random quote each time the 'Show another quote' button is pressed. ",
-                "technologies": ["HTML", "CSS", "JavaScript"],
-                "live_link": "https://alipinski15.github.io/Random-Quote-Generator/",
-                "github_link": "https://github.com/alipinski15/Random-Quote-Generator",
-                "image_urls": ["/static/images/quote_main.png", "/static/images/quote_1.png", "/static/images/quote_2.png", "/static/images/quote_3.png"]
-            },
-            {
-                "id": "1",
-                "project_name": "List Pagination and Filtering",
-                "description": "A student directory that allows for page navigation and search and filtering ability.",
-                "technologies": ["HTML", "CSS", "JavaScript"],
-                "live_link": " https://alipinski15.github.io/LIst-Pagination-and-Filtering/",
-                "github_link": "https://github.com/alipinski15/LIst-Pagination-and-Filtering",
-                "image_urls": ["/static/images/list_main.png", "/static/images/list_1.png", "/static/images/list_2.png"]
-            },
-            {
-                "id": "2",
-                "project_name": "Interactive Form",
-                "description": "This is a submission form to register for a conference. Complete with form validation upon submission and drop down menu selection.  ",
-                "technologies": ["HTML", "CSS", "JavaScript"],
-                "live_link": " https://alipinski15.github.io/Interactive-Form/",
-                "github_link": "https://github.com/alipinski15/Interactive-Form",
-                "image_urls": ["/static/images/form_main.png", "/static/images/form_1.png", "/static/images/form_2.png", "/static/images/form_3.png", "/static/images/form_4.png"]
-            },
-            {
-                "id": "3",
-                "project_name": "OOP Game Show App",
-                "description": "This is a Game created with Object Oriented JavaScript. A player can guess the phrase by selecting letters from the keyboard provided. If a guess is correct, a letter(s) is shown. If a guess is incorrect, a life is removed. ",
-                "technologies": ["HTML", "CSS", "JavaScript"],
-                "live_link": " https://alipinski15.github.io/OPP-Game-Show-App/",
-                "github_link": "https://github.com/alipinski15/OPP-Game-Show-App",
-                "image_urls": ["/static/images/game_main.png", "/static/images/game_1.png", "/static/images/game_2.png", "/static/images/game_3.png", "/static/images/game_4.png"]
-            },
-            {
-                "id": "4",
-                "project_name": "Public API",
-                "description": "This project is an app for a fictional company called Awesome Startup, a distributed company with remote employees working all over the world. They need a smart way for employees to share contact information with each other. Through a Random User Generator API, information for 12 random employees is requested and used to build a prototype employee directory. ",
-                "technologies": ["HTML", "CSS", "JavaScript"],
-                "live_link": "https://alipinski15.github.io/Public-API/",
-                "github_link": "https://github.com/alipinski15/Public-API",
-                "image_urls": ["/static/images/api_main.png", "/static/images/api_1.png", "/static/images/api_2.png", "/static/images/api_3.png"]
-            }
-        ]
-    }
+    "projects": [
+        {
+            "id": "0",
+            "project_name": "Random Quote Generator",
+            "description": "An application that creates a random quote each time the 'Show another quote' button is pressed. ",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": "https://alipinski15.github.io/Random-Quote-Generator/",
+            "github_link": "https://github.com/alipinski15/Random-Quote-Generator",
+            "image_urls": ["/static/images/quote_main.png", "/static/images/quote_1.png", "/static/images/quote_2.png", "/static/images/quote_3.png"]
+        },
+        {
+            "id": "1",
+            "project_name": "List Pagination and Filtering",
+            "description": "A student directory that allows for page navigation and filtering ability.",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": " https://alipinski15.github.io/LIst-Pagination-and-Filtering/",
+            "github_link": "https://github.com/alipinski15/LIst-Pagination-and-Filtering",
+            "image_urls": ["/static/images/list_main.png", "/static/images/list_1.png", "/static/images/list_2.png"]
+        },
+        {
+            "id": "2",
+            "project_name": "Interactive Form",
+            "description": "This is a submission form to register for a conference. Complete with form validation upon submission and drop down menu selection.  ",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": " https://alipinski15.github.io/Interactive-Form/",
+            "github_link": "https://github.com/alipinski15/Interactive-Form",
+            "image_urls": ["/static/images/form_main.png", "/static/images/form_1.png", "/static/images/form_2.png", "/static/images/form_3.png", "/static/images/form_4.png"]
+        },
+        {
+            "id": "3",
+            "project_name": "OOP Game Show App",
+            "description": "This is a Game created with Object Oriented JavaScript. A player can guess the phrase by selecting letters from the keyboard provided. If a guess is correct, a letter(s) is shown. If a guess is incorrect, a life is removed. ",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": " https://alipinski15.github.io/OPP-Game-Show-App/",
+            "github_link": "https://github.com/alipinski15/OPP-Game-Show-App",
+            "image_urls": ["/static/images/game_main.png", "/static/images/game_1.png", "/static/images/game_2.png", "/static/images/game_3.png", "/static/images/game_4.png"]
+        },
+        {
+            "id": "4",
+            "project_name": "Public API",
+            "description": "This project is an app for a fictional company called Awesome Startup, a distributed company with remote employees working all over the world. They need a smart way for employees to share contact information with each other. Through a Random User Generator API, information for 12 random employees is requested and used to build a prototype employee directory. ",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": "https://alipinski15.github.io/Public-API/",
+            "github_link": "https://github.com/alipinski15/Public-API",
+            "image_urls": ["/static/images/api_main.png", "/static/images/api_1.png", "/static/images/api_2.png", "/static/images/api_3.png"]
+        }
+    ]
 }

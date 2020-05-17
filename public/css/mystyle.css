@@ -1,0 +1,36 @@
+body {
+    background-color: #686b70;
+}
+
+h1,h2,h3,h4,h5,p{
+    color: #f8f6f6;
+  }
+
+.text-light{
+    color: #fdfdfd;
+}
+
+.cell.portfolio-meta.small-6.medium-2.large-3 li,a{
+    color: #fdfdfd;
+}
+
+.image{
+    border: none;
+}
+
+.thumbnail{
+    border: none;
+    box-shadow: 3px 3px 5px rgba(51, 51, 51, 0.822);
+}
+
+.thumbnail:hover {
+    background-color: rgb(64, 91, 136);
+}
+
+.grid-container.portfolio-breadcrumb a{
+    color: #fdfdfd;
+}
+
+.button.expanded{
+    box-shadow: 3px 3px 5px rgba(51, 51, 51, 0.822);
+}

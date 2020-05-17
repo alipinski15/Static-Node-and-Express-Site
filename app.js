@@ -1,31 +1,45 @@
+/**
+ * Global Variables 
+ */
 const express = require('express');
 const bodyParser = require('body-parser');
-const { data } = require('../Static-Node-and-Express-Site/data.json');
-
-// console.log(data.projects[0].image_urls[0])
 const app = express();
+
+
+// Variable containing data from json file.accordion
+
+const { projects } = require('../Static-Node-and-Express-Site/data.json');
+
 
 app.use(bodyParser.urlencoded({extended: false}));
 app.use('/static', express.static('public'));
 app.set('view engine', 'pug');
 
-app.get('/', (req, res) => {
-    res.render('index');
+//Renders the index page.
+
+app.get('/', (req, res, next) => {
+    res.render('index', { projects });
 })
+
+//Renders the about page.
 
 app.get('/about', (req, res) => {
     res.render('about');
 })
 
+//Checks the 'id' of each page. renders the appropriate page if 'id' matches.
 
-app.get('/project/:id', (req, res) => {
-    const { id } = req.params;
-    data.projects.forEach(project => {
-        if(id === project.id){
-            res.render('project', {project})
-        }
-    });
-});
+app.get('/project/:id', (req, res, next) => {
+    const projectId = req.params.id;
+    const project = projects.find( ({ id }) => id === projectId);
+    if(project){
+        res.render('project', { project });
+    } else {
+        res.sendStatus(404);
+    }
+}); 
+
+//Handles an error if the page is not found. 
 
 app.use((req, res, next) => {
     const err = new Error('Not Found');
@@ -33,6 +47,7 @@ app.use((req, res, next) => {
     next(err);
 })
 
+//Handle the localhost server.
 
 app.listen(3000, () => {
     console.log('The application is running localhost:3000');
