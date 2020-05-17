@@ -8,7 +8,7 @@
                 "technologies": ["HTML", "CSS", "JavaScript"],
                 "live_link": "https://alipinski15.github.io/Random-Quote-Generator/",
                 "github_link": "https://github.com/alipinski15/Random-Quote-Generator",
-                "image_urls": ["/static/images/quote_main.png", "/static/images/quote_1.png", "/static/images/quote_2.png"]
+                "image_urls": ["/static/images/quote_main.png", "/static/images/quote_1.png", "/static/images/quote_2.png", "/static/images/quote_3.png"]
             },
             {
                 "id": "1",

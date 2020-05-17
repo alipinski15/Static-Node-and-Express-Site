@@ -17,15 +17,22 @@ app.get('/about', (req, res) => {
     res.render('about');
 })
 
-app.get('/layout', (req, res) => {
-    res.render('layout');
-})
 
-app.get('/project', (req, res) => {
+app.get('/project/:id', (req, res) => {
+    const { id } = req.params;
     data.projects.forEach(project => {
-        res.render('project', {project})
+        if(id === project.id){
+            res.render('project', {project})
+        }
     });
 });
+
+app.use((req, res, next) => {
+    const err = new Error('Not Found');
+    err.status = 404;
+    next(err);
+})
+
 
 app.listen(3000, () => {
     console.log('The application is running localhost:3000');

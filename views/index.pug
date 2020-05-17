@@ -21,7 +21,7 @@ block content
       //- Here's what the Pug for each project example should look like. 
     each project in data.projects
       .cell
-        a(href='/project')
+        a(href='/project/' + project.id)
           img.thumbnail(src=project.image_urls[0])
           h5 #{project.project_name}
       
