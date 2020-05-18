@@ -16,7 +16,7 @@
             "technologies": ["HTML", "CSS", "JavaScript"],
             "live_link": " https://alipinski15.github.io/LIst-Pagination-and-Filtering/",
             "github_link": "https://github.com/alipinski15/LIst-Pagination-and-Filtering",
-            "image_urls": ["/static/images/list_main.png", "/static/images/list_1.png", "/static/images/list_2.png", "/static/images/list_3.png"]
+            "image_urls": ["/static/images/list_main.png", "/static/images/list_1.png", "/static/images/list_2.png", "/static/images/list_2.png"]
         },
         {
             "id": "2",
