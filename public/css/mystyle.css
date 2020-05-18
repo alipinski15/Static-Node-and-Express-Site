@@ -18,6 +18,16 @@ h1,h2,h3,h4,h5,p{
     border: none;
 }
 
+.cell.shrink.thumbnail img{
+    border: none;
+    box-shadow: 3px 3px 5px rgba(187, 187, 187, 0.822);
+}
+
+.cell.auto img{
+    height: 100%;
+
+}
+
 .thumbnail{
     border: none;
     box-shadow: 3px 3px 5px rgba(51, 51, 51, 0.822);
@@ -34,3 +44,4 @@ h1,h2,h3,h4,h5,p{
 .button.expanded{
     box-shadow: 3px 3px 5px rgba(51, 51, 51, 0.822);
 }
+

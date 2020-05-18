@@ -11,27 +11,23 @@ html(class="no-js" lang="en" dir="ltr")
     link(rel='stylesheet', href='/static/css/mystyle.css')
   body
     #my-info.off-canvas.position-left.reveal-for-large.portfolio-me(data-off-canvas='')
-      .grid-y.grid-padding-x(style='height: 100%;')
-        block sidebar
+        block sidebar 
           br
           .cell.shrink
-            img.thumbnail(src='https://placehold.it/550x350')
+            img.thumbnail(src='/static/images/bio_pic.png')
           .cell.auto
             h5 Aaron Lipinski
-
-            //- Add text here to describe who you are, what you do, and why you are so awesome.
             p.text-light
-              | Description
-
-            //- Add about page route to the href below. 
+              | Ever since I've been a kid, technology has been a part of my life. 
+              | Web Development is the next evolution for me. I'm very excited for the journey ahead as I grow as a developer. 
+              | Click Learn More to hear a little more about my journey. 
             a(href='/about') Learn More →
+           
 
     .off-canvas-content(data-off-canvas-content='')
       .title-bar.hide-for-large
         .title-bar-left
           button.menu-icon(type='button', data-toggle='my-info')
-
-          //- Add your name here.  This is for the mobile screen sized version.
           span.title-bar-title Aaron Lipinski
       block content
         
