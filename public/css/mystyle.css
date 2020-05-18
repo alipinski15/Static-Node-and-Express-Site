@@ -45,3 +45,12 @@ h1,h2,h3,h4,h5,p{
     box-shadow: 3px 3px 5px rgba(51, 51, 51, 0.822);
 }
 
+#error{
+    margin: 20px;
+}
+
+.img{
+    margin: auto;
+    width:25%;
+    padding: 10px;
+}
