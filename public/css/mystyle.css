@@ -43,7 +43,7 @@ h1,h2,h3,h4,h5,p{
     color: #fdfdfd;
 }
 
-.grid-container.portfolio-breadcrumb:hover a{
+.grid-container.portfolio-breadcrumb a:hover{
     color: #3a3a3a;
 }
 
