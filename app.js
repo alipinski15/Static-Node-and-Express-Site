@@ -44,6 +44,7 @@ app.get('/project/:id', (req, res, next) => {
 app.use((req, res, next) => {
     const err = new Error('Not Found');
     err.status = 404;
+    console.log('Oops, It likes we have a problem');
     next(err);
 })
 
@@ -51,7 +52,7 @@ app.use((err, req, res, next) => {
     res.locals.error = err;
     res.status(err.status);
     res.render('error', err);
-
+    // console.log(err)
 })
 
 //Handle the localhost server.
