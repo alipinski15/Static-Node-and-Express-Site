@@ -43,6 +43,10 @@ h1,h2,h3,h4,h5,p{
     color: #fdfdfd;
 }
 
+.grid-container.portfolio-breadcrumb:hover a{
+    color: #3a3a3a;
+}
+
 .button.expanded{
     box-shadow: 3px 3px 5px rgba(51, 51, 51, 0.822);
 }

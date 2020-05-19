@@ -6,9 +6,9 @@ const bodyParser = require('body-parser');
 const app = express();
 
 
-// Variable containing data from json file.accordion
+// Variable containing data from json file.
 
-const { projects } = require('../Static-Node-and-Express-Site/data.json');
+const { projects } = require('./data.json');
 
 
 app.use(bodyParser.urlencoded({extended: false}));
