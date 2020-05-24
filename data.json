@@ -40,7 +40,7 @@
             "id": "4",
             "project_name": "Public API",
             "description": "This project is an app for a fictional company called Awesome Startup, a distributed company with remote employees working all over the world. They need a smart way for employees to share contact information with each other. Through a Random User Generator API, information for 12 random employees is requested and used to build a prototype employee directory. ",
-            "technologies": ["HTML", "CSS", "JavaScript"],
+            "technologies": ["HTML", "CSS", "JavaScript", "Public API"],
             "live_link": "https://alipinski15.github.io/Public-API/",
             "github_link": "https://github.com/alipinski15/Public-API",
             "image_urls": ["/static/images/api_main.png", "/static/images/api_1.png", "/static/images/api_2.png", "/static/images/api_3.png"]
