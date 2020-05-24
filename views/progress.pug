@@ -1,0 +1,46 @@
+extends layout.pug
+
+block content 
+  nav.grid-container.portfolio-breadcrumb
+    a(href='/') ← Back
+  article.grid-container.portfolio-intro.portfolio-project
+    .grid-x
+      .cell.small-6.medium-9.large-9
+        h1 Upcoming Projects
+        div.progress-projects
+          h4  React Scoreboard App:
+          hr
+          br
+          p 
+            | The Scoreboard app was created along side instructors using React. Users can add Player names, keep score with the + and - buttons.
+            | There are stopwatch, start and reset options. 
+        div.progress-projects-gallery
+          h4 React Galley App:
+          hr
+          br
+          p For this project I will be using the React library to create an image galley app. With the help of this powerful "MVC" (Model, View, Controller) library, the app will be built in the style of modern single page applications to keep it fast, modular, and in sync with current web development trends.
+          p What will be done to create this app:
+            li Use JavaScript and JSX to build out the gallery components in a modular fashion.
+            li Use React Router to set up routes for three default topic pages and a search page.
+            li Use the Fetch API or a tool like Axios to fetch data from the Flickr API and use it to display images in your app.
+            li Add logic to handle the search and various requirements of the project.
+            li Add to the supplied CSS to personalize the project.
+        div.progress-projects-library
+          h4 SQL Library Manager:
+          hr
+          br
+          p 
+            | In this project I will be tasked with creating an application for your local library to help them manage their collection of books. The librarian has been using a simple SQLite database and has been entering data in manually. The librarian wants a more intuitive way to manage the library's collection of books.
+
+            |In this project, I will build a web application that'll include pages to list, add, update, and delete books. I will be given HTML designs and an existing SQLite database. I will be required to implement a dynamic website using: 
+            li JavaScript
+            li Node.js
+            li Express
+            li Pug
+            li SQL ORM Sequelize.
+
+
+
+
+  div.link
+    a(href='/') ← Back

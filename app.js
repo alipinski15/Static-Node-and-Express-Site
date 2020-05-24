@@ -28,6 +28,10 @@ app.get('/about', (req, res) => {
     res.render('about');
 })
 
+app.get('/progress', (req, res) => {
+    res.render('progress');
+})
+
 //Checks the 'id' of each page. renders the appropriate page if 'id' matches.
 
 app.get('/project/:id', (req, res, next) => {

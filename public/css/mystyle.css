@@ -63,3 +63,27 @@ h1,h2,h3,h4,h5,p{
 .portfolio-bio p{
     text-indent: 20px;
 }
+
+.portfolio-intro p{
+    padding-bottom: 15px;
+    margin-bottom: 10px;
+}
+
+.line-break a:hover{
+    color: #b8b8b8;
+}
+
+.progress-projects ul{
+    color: white;
+}
+.progress-projects-gallery li{
+    color: white;
+}
+
+.progress-projects-library li{
+    color: white;
+}
+
+.link a{
+    margin-left: 20px;
+}
