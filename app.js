@@ -10,6 +10,7 @@ const app = express();
 
 const { projects } = require('./data.json');
 
+// console.log( projects[5].description );
 
 app.use(bodyParser.urlencoded({extended: false}));
 app.use('/static', express.static('public'));
