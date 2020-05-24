@@ -2,7 +2,7 @@
  
 In this project, I have create a gorgeous portfolio site to showcase the great projects I've built. The site contains a modern landing page, an about page where I have shared contact info and a brief Bio, and a series of project pages to show off and detail my projects from this Techdegree.
 
-I have create a JSON file to store all the data about the projects I've created.
+I have created a JSON file to store all the data about the projects I've created.
 
 I have used Pug to complete provided templates that utilize the JSON to generate the markup that is displayed in the browser.
 
