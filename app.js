@@ -56,7 +56,8 @@ app.use((err, req, res, next) => {
 
 //Handle the localhost server.
 
-app.listen(3000, () => {
-    console.log('The application is running localhost:3000');
-
-});
+let port = process.env.PORT;
+if (port == null || port == "") {
+  port = 8000;
+}
+app.listen(port);
