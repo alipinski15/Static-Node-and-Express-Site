@@ -11,6 +11,11 @@ h1,h2,h3,h4,h5,p{
 .text-light{
     color: #fafafa;
 }
+
+.cell.small-6.medium-9.large-9 li{
+    color: white;
+}
+
  /* Color for li & a elements on project page */
 .cell.portfolio-meta.small-6.medium-2.large-3 li,a{
     color: #fdfdfd;
@@ -73,6 +78,10 @@ h1,h2,h3,h4,h5,p{
     color: #b8b8b8;
 }
 
+.line-break h4{
+    padding: 0px;
+}
+
 .progress-projects ul{
     color: white;
 }
@@ -85,11 +94,14 @@ h1,h2,h3,h4,h5,p{
 }
 
 .link a{
-    padding-bottom: 50px;
+    margin: 50px 0px 0px 20px;
     font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     letter-spacing: 2.5px;
     font-size: 13px;
-    margin-left: 20px;
     font-weight: 600;
+}
+
+.grid-container.portfolio-index h4{
+    padding: 0px 0px 20px 0px;
 }
 

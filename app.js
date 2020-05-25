@@ -16,13 +16,11 @@ app.use(bodyParser.urlencoded({extended: false}));
 app.use('/static', express.static('public'));
 app.set('view engine', 'pug');
 
-//Renders the index page.
+//Renders the all necessary pages.
 
 app.get('/', (req, res, next) => {
     res.render('index', { projects });
 })
-
-//Renders the about page.
 
 app.get('/about', (req, res) => {
     res.render('about');
@@ -30,6 +28,10 @@ app.get('/about', (req, res) => {
 
 app.get('/progress', (req, res) => {
     res.render('progress');
+})
+
+app.get('/site', (req, res) => {
+    res.render('site');
 })
 
 //Checks the 'id' of each page. renders the appropriate page if 'id' matches.

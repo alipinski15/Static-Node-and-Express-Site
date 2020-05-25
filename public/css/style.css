@@ -99,12 +99,13 @@ a:hover{
 
 .portfolio-intro{
   margin: 0;
-  padding: 40px 50px 30px;
+  padding: 40px 50px 10px;
 }
 
 .portfolio-intro p{
   border-bottom: 1px solid #eaeaea;
   padding-bottom: 40px;
+  text-indent: 20px;
 }
 
 .portfolio-index{

@@ -1,0 +1,49 @@
+extends layout.pug
+
+block content 
+  nav.grid-container.portfolio-breadcrumb
+    a(href='/') ← Back
+  article.grid-container.portfolio-intro.portfolio-project
+    .grid-x
+      .cell.small-6.medium-9.large-9
+        h1 Static Node and Express Site
+        p.lead.text-light
+          | In this project, I have created a gorgeous portfolio site to showcase the great projects I've built. The site contains a modern landing page, an about page where I have shared contact info and a brief Bio, and a series of project pages to show off and detail my projects from this Techdegree.
+        p
+          | Here are some details about how I built this site:
+          | I have created a JSON file to store all the data about the projects I've created.
+
+          | I have used Pug to complete provided templates that utilize the JSON to generate the markup that is displayed in the browser.
+
+          | I have utilized Node.js and Express to:
+
+        li Import the required dependencies
+        li Link the JSON with the Pug templates
+        li Set up routes to handle requests
+        li Set up the middleware to utilize static files like CSS
+        li Handle errors
+        li Set up a server to serve the project
+        br
+        p
+          | As an added Exceeds Expectations requirement I have added the following:
+
+        li Added the npm start to my package.json
+        li Created an Error page to handle whats displayed in the event of an error being thrown. 
+        li And created my own CSS stylesheet for customized CSS styling called mystyle.css
+
+      .cell.portfolio-meta.small-6.medium-2.large-3
+        h6 Technologies       
+        ul
+          li HTML
+          li CSS
+          li JavaScript
+          li Node.js
+          li Express
+          li Pug
+          li Git
+        a.button.expanded(href="https://github.com/alipinski15/Static-Node-and-Express-Site" target="_blank") GitHub Repo
+
+    
+
+  div.link
+    a(href='/') ← BACK
