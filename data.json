@@ -48,7 +48,7 @@
         {
             "id": "5",
             "project_name": "Static Node and Express Site",
-            "description": "In this project, I have create a gorgeous portfolio site to showcase the great projects I've built. The site contains a modern landing page, an about page where I have shared contact info and a brief Bio, and a series of project pages to show off and detail my projects from this Techdegree. Below is a screenshot of some of the details of how I built this site.",
+            "description": "In this project, I have create a gorgeous portfolio site to showcase the great projects I've built. The site contains a modern landing page, an about page where I have shared contact info and a brief Bio, and a series of project pages to show off and detail my projects from this Techdegree.",
             "technologies": ["HTML", "CSS", "JavaScript", "Node.js", "Express", "Pug"],
             "live_link": "https://portfolio-alipinski.herokuapp.com/",
             "github_link": "https://github.com/alipinski15/Static-Node-and-Express-Site",
