@@ -40,10 +40,19 @@
             "id": "4",
             "project_name": "Public API",
             "description": "This project is an app for a fictional company called Awesome Startup, a distributed company with remote employees working all over the world. They need a smart way for employees to share contact information with each other. Through a Random User Generator API, information for 12 random employees is requested and used to build a prototype employee directory. ",
-            "technologies": ["HTML", "CSS", "JavaScript", "Public API"],
+            "technologies": ["HTML", "CSS", "JavaScript", "Public API", "Git"],
             "live_link": "https://alipinski15.github.io/Public-API/",
             "github_link": "https://github.com/alipinski15/Public-API",
             "image_urls": ["/static/images/api_main.png", "/static/images/api_1.png", "/static/images/api_2.png", "/static/images/api_3.png"]
+        },
+        {
+            "id": "5",
+            "project_name": "React Gallery",
+            "description": "For this project I have built an App in React that fetches images from Flickr, and displays them on the page. The search field allows users to search a specific topic and has those images displayed when searched. In addition there are three default topics as Navigation links to display said topics.  ",
+            "technologies": ["HTML", "CSS", "JavaScript", "React", "JSX", "Public API", "Git"],
+            "live_link": "https://alipinski-react-gallery-app.netlify.app/",
+            "github_link": "https://github.com/alipinski15/React-Gallery-App",
+            "image_urls": ["/static/images/react_main.png", "/static/images/react_1.png", "/static/images/react_2.png", "/static/images/react_3.png"]
         }
     ]
 }
