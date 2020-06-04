@@ -61,6 +61,7 @@ h1,h2,h3,h4,h5,p{
 }
 
 .text {
+    border-radius: 5px;
     background-color: rgb(57, 57, 68);
     color: white;
     font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
