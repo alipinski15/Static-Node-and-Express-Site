@@ -53,6 +53,14 @@
             "live_link": "https://alipinski-react-gallery-app.netlify.app/",
             "github_link": "https://github.com/alipinski15/React-Gallery-App",
             "image_urls": ["/static/images/react_main.png", "/static/images/react_1.png", "/static/images/react_2.png", "/static/images/react_3.png"]
+        },
+        {
+            "id": "6",
+            "project_name": "SQL Library Application",
+            "description": "This is a simple application for a local Library to use to help them manage their collection of books. The librarian has been using a simple SQLite database and has been entering data in manually. The librarian wants a more intuitive way to manage the library's collection of books. ",
+            "technologies": ["HTML", "CSS", "JavaScript", "Node.js", "Express", "Pug", "SQLite", "ORM Sequelize"],
+            "github_link": "https://github.com/alipinski15/SQL-Library-Manager",
+            "image_urls": ["/static/images/sql_main.png", "/static/images/sql_1.png", "/static/images/sql_2.png", "/static/images/sql_3.png"]
         }
     ]
 }
